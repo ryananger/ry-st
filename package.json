@@ -1,7 +1,7 @@
 {
   "name": "ry-st",
   "version": "1.0.0",
-  "description": "Simple global state management for React.",
+  "description": "Simple state management for React.",
   "main": "st.js",
   "repository": {
     "type": "git",
@@ -9,7 +9,6 @@
   },
   "keywords": [
     "react",
-    "global",
     "state",
     "javascript",
     "reactJS",
