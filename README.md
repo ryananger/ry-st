@@ -1,6 +1,10 @@
-# ry-st
+# st
 
 This is an easy to use global state manager for React.
+
+## Install
+
+```npm install ryscott-st```
 
 ## Usage
 
@@ -37,7 +41,7 @@ st.setFlamingos('no'); // flamingos === st.flamingos === 'no';
 #### App.jsx
 ```javascript
 import React, {useState} from 'react';
-import st from 'ry-st';
+import st from 'ryscott-st';
 
 import Home      from './Home.jsx';
 import OtherPage from './OtherPage.jsx';
@@ -50,7 +54,7 @@ const App = function() {
     other: <OtherPage />
   };
 
-  // render view from global state 'view'
+  // render view from state 'view'
   return (
     <div className='app'>
       {views[view]}
@@ -63,12 +67,12 @@ export default App;
 
 #### Home.jsx
 ```javascript
-import React, {useState} from 'react';
-import st from 'ry-st';
+import React from 'react';
+import st from 'ryscott-st';
 
 const Home = function() {
   var goToOther = function() {
-    // updates global state 'view';
+    // updates state 'view';
     st.setView('other');
   };
 
@@ -86,12 +90,12 @@ export default Home;
 
 #### OtherPage.jsx
 ```javascript
-import React, {useState} from 'react';
-import st from 'ry-st';
+import React from 'react';
+import st from 'ryscott-st';
 
 const OtherPage = function() {
   var goHome = function() {
-    // updates global state 'view';
+    // updates state 'view';
     st.setView('home');
   };
 
