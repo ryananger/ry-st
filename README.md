@@ -1,4 +1,4 @@
-# ry-state
+# ry-st
 
 This is an easy to use global state manager for React.
 
