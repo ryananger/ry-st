@@ -19,8 +19,5 @@
   "bugs": {
     "url": "https://github.com/ryananger/ry-st/issues"
   },
-  "homepage": "https://github.com/ryananger/ry-st#readme",
-  "dependencies": {
-    "react": "^18.2.0"
-  }
+  "homepage": "https://github.com/ryananger/ry-st#readme"
 }
