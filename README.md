@@ -54,7 +54,7 @@ const App = function() {
     other: <OtherPage />
   };
 
-  // render view from global state 'view'
+  // render view from state 'view'
   return (
     <div className='app'>
       {views[view]}
@@ -72,7 +72,7 @@ import st from 'ryscott-st';
 
 const Home = function() {
   var goToOther = function() {
-    // updates global state 'view';
+    // updates state 'view';
     st.setView('other');
   };
 
@@ -95,7 +95,7 @@ import st from 'ryscott-st';
 
 const OtherPage = function() {
   var goHome = function() {
-    // updates global state 'view';
+    // updates state 'view';
     st.setView('home');
   };
 
