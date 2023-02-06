@@ -1,14 +1,11 @@
 {
-  "name": "ry-state",
+  "name": "ry-st",
   "version": "1.0.0",
   "description": "Simple global state management for React.",
   "main": "st.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ryananger/ry-state.git"
+    "url": "git+https://github.com/ryananger/ry-st.git"
   },
   "keywords": [
     "react",
@@ -21,7 +18,7 @@
   "author": "ryananger",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/ryananger/ry-state/issues"
+    "url": "https://github.com/ryananger/ry-st/issues"
   },
-  "homepage": "https://github.com/ryananger/ry-state#readme"
+  "homepage": "https://github.com/ryananger/ry-st#readme"
 }
