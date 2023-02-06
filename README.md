@@ -2,6 +2,10 @@
 
 This is an easy to use global state manager for React.
 
+## Install
+
+```npm install ryscott-st```
+
 ## Usage
 
 Use the ```st.newState``` interface to create a global state.
