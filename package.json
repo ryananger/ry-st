@@ -1,8 +1,8 @@
 {
   "name": "ryscott-st",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Simple state management for React.",
-  "main": "st.js",
+  "main": "min.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ryananger/ry-st.git"
@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/ryananger/ry-st/issues"
   },
-  "homepage": "https://github.com/ryananger/ry-st#readme"
+  "homepage": "https://github.com/ryananger/ry-st#readme",
+  "dependencies": {
+    "react": "^18.2.0"
+  }
 }

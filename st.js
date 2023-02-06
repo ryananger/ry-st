@@ -1,3 +1,5 @@
+import {useState} from 'react';
+
 var st = {
   newState: function(name, state) {
     const str = 'set' + name.charAt(0).toUpperCase() + name.slice(1);

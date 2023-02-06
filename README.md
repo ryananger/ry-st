@@ -11,11 +11,11 @@ This is an easy to use global state manager for React.
 Use the ```st.newState``` interface to create a global state.
 
 ### Parameters
-```name``` 
+```name```
 
-Name of your state. The setter is camelCased based on the state name. 
+Name of your state. The setter is camelCased based on the state name.
 
-```useState``` 
+```useState```
 
 React useState hook with value.
 
