@@ -41,7 +41,7 @@ st.setFlamingos('no'); // flamingos === st.flamingos === 'no';
 #### App.jsx
 ```javascript
 import React, {useState} from 'react';
-import st from 'ry-st';
+import st from 'ryscott-st';
 
 import Home      from './Home.jsx';
 import OtherPage from './OtherPage.jsx';
@@ -67,8 +67,8 @@ export default App;
 
 #### Home.jsx
 ```javascript
-import React, {useState} from 'react';
-import st from 'ry-st';
+import React from 'react';
+import st from 'ryscott-st';
 
 const Home = function() {
   var goToOther = function() {
@@ -90,8 +90,8 @@ export default Home;
 
 #### OtherPage.jsx
 ```javascript
-import React, {useState} from 'react';
-import st from 'ry-st';
+import React from 'react';
+import st from 'ryscott-st';
 
 const OtherPage = function() {
   var goHome = function() {
