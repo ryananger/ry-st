@@ -1,6 +1,6 @@
 # st
 
-This is an easy to use global state manager for React.
+This is an easy to use global state manager for React that allows you to skip props-drilling and provider-wrapping.
 
 See https://github.com/ryananger/react-template for a template app that uses ryscott-st.
 
@@ -28,14 +28,14 @@ React useState hook with value.
 ### Basic use
 
 ```javascript
-// IN SOME COMPONENT:
+// IN HIGHER COMPONENT:
 const [view, setView]           = st.newState('view', useState('home'));
 const [count, setCount]         = st.newState('count', useState(0));
 const [flamingos, setFlamingos] = st.newState('flamingos', useState('yes'));
 ```
 
 ```javascript
-// IN OTHER COMPONENT:
+// IN LOWER COMPONENT:
 const flamingos = st.flamingos;
 
 st.setFlamingos('no'); // flamingos === st.flamingos === 'no';
@@ -53,7 +53,12 @@ import Home      from './Home.jsx';
 import OtherPage from './OtherPage.jsx';
 
 const App = function() {
+  // setView is unused here, you could simply declare [view];
+  // st.newState allows children to access state declared in a higher scope
   const [view, setView] = st.newState('view', useState('home'));
+  
+  // you can also skip declaration entirely
+  // st.newState('number', useState(0));
 
   const views = {
     home:  <Home />,
