@@ -1,6 +1,6 @@
 {
   "name": "ryscott-st",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Simple state management for React.",
   "main": "min.js",
   "repository": {
@@ -12,7 +12,11 @@
     "state",
     "javascript",
     "reactJS",
-    "react-native"
+    "react-native",
+    "state management",
+    "react state",
+    "global state",
+    "component"
   ],
   "author": "ryananger",
   "license": "ISC",
