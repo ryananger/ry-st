@@ -4,7 +4,7 @@ This is an easy to use global state manager for React.
 
 See https://github.com/ryananger/react-template for a template app that uses ryscott-st.
 
-Sandbox demo:
+#### Sandbox demo:
 
 https://codesandbox.io/s/ryscott-st-demo-wg9hcd
 
