@@ -2,6 +2,8 @@
 
 This is an easy to use global state manager for React.
 
+See https://github.com/ryananger/react-template for a template app that uses ryscott-st.
+
 ## Install
 
 ```npm install ryscott-st```
