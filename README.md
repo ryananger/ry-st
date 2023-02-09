@@ -28,6 +28,10 @@ React useState hook with value.
 ### Basic use
 
 ```javascript
+import st from 'ryscott-st';
+```
+
+```javascript
 // IN HIGHER COMPONENT:
 const [view, setView]           = st.newState('view', useState('home'));
 const [count, setCount]         = st.newState('count', useState(0));
